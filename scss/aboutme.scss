@@ -1,11 +1,17 @@
 @import 'header';
 @import 'footer';
+
 $image-width: 300px;
 
 main {
+  padding: 20px;
+  text-align: center;
+
   img {
+    display: block;
     width: 100%;
     max-width: $image-width;
     height: auto;
+    margin: 0 auto 15px;
   }
 }

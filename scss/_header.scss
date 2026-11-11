@@ -1,22 +1,24 @@
-$primary-color: #3498db;
+$main-color: #2a4d8f;
+$header-text: #fff;
 
-header {
-    background-color: $primary-color;
-    color: white;
-    padding: 1rem;
-    text-align: center;
+header.top-bar {
+  background: $main-color;
+  color: $header-text;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    nav {
-        margin-top: 10px;
+  .logo {
+    color: $header-text;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
 
-        a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
+  .menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
 }
