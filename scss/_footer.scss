@@ -1,0 +1,14 @@
+$dark-charcoal: #2c3539;
+$text-muted: rgba(255, 255, 255, 0.6);
+
+footer.site-footer {
+    background-color: $dark-charcoal;
+    padding: 30px 20px;
+    text-align: center;
+
+    p {
+        color: $text-muted;
+        font-size: 0.85rem;
+        margin: 5px 0;
+    }
+}
