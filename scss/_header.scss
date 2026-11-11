@@ -1,28 +1,22 @@
-$brand-blue: #3482d2;
-$text-white: #ffffff;
+$primary-color: #3498db;
 
-header.top-bar {
-    background-color: $brand-blue;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+    text-align: center;
 
-    .logo {
-        color: $text-white;
-        font-size: 1.5rem;
-        text-decoration: none;
-        font-weight: bold;
-    }
+    nav {
+        margin-top: 10px;
 
-    .menu-btn {
-        background: transparent;
-        border: none;
-        cursor: pointer;
+        a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
 
-        img {
-            width: 25px;
-            height: auto;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

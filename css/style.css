@@ -1,54 +1,39 @@
-header.top-bar {
-  background-color: #3482d2;
-  padding: 15px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
-header.top-bar .logo {
-  color: #ffffff;
-  font-size: 1.5rem;
+header nav {
+  margin-top: 10px;
+}
+header nav a {
+  color: white;
   text-decoration: none;
-  font-weight: bold;
+  margin: 0 10px;
 }
-header.top-bar .menu-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
-header.top-bar .menu-btn img {
-  width: 25px;
-  height: auto;
+header nav a:hover {
+  text-decoration: underline;
 }
 
-footer.site-footer {
-  background-color: #2c3539;
-  padding: 30px 20px;
+footer {
+  background-color: #333;
+  color: white;
   text-align: center;
-}
-footer.site-footer p {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.85rem;
-  margin: 5px 0;
+  padding: 1rem;
 }
 
-main {
-  padding: 40px 20px;
-  text-align: center;
+header {
+  background: #2a4d8f;
 }
-main .content-box {
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 20px;
+header nav a {
+  color: #fff;
 }
-main .content-box img {
-  max-width: 100%;
+
+main img {
+  width: 100%;
+  max-width: 300px;
   height: auto;
-  margin-bottom: 15px;
-}
-main .content-box p {
-  font-size: 1.1rem;
-  color: #333333;
 }
 
 /*# sourceMappingURL=style.css.map */

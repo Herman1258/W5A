@@ -1,24 +1,11 @@
 @import 'header';
 @import 'footer';
+$image-width: 300px;
 
-// Standard main page nesting layout structure
 main {
-    padding: 40px 20px;
-    text-align: center;
-
-    .content-box {
-        background-color: #ffffff;
-        border-radius: 8px;
-        padding: 20px;
-
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 15px;
-        }
-        p {
-            font-size: 1.1rem;
-            color: #333333;
-        }
-    }
+  img {
+    width: 100%;
+    max-width: $image-width;
+    height: auto;
+  }
 }
